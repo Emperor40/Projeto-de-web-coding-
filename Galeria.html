@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Galeria - Minecraft World</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<style>
+  table{
+    margin-top: 60px;
+  }
+</style>
+<body>
+  <header>
+    <img src="imagem/logo.jpg" alt="Logo Minecraft" class="logo" />
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobregame.html">Sobre</a></li>
+        <li><a href="mods.html">Mods</a></li>
+       <li><a href="modogame.html">Modos</a></li>
+        <li><a href="galeria.html" class="ativo">Galeria</a></li>
+        <li><a href="curiosidades.html">Curiosidades</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="conteudo">
+    <h1>Galeria de Minecraft</h1>
+    <p>Veja algumas imagens incríveis do universo Minecraft — construções, mobs e aventuras!</p>
+
+    <div class="galeria">
+      <img src="imagem/Abandoned_Village.jpg" alt="Paisagem Minecraft">
+      <img src="imagem/steve.jpg" alt="Steve">
+      <img src="imagem/Savanna_Small_House_7.jpg" alt="Savanna">
+      <img src="imagem/Snowy_Small_House_6.jpg" alt="Snowy_Village">
+      <img src="imagem/forge.jpg" alt="forge">
+    </div>
+  </section>
+  <table>
+    <button id="btn-mais">Ver mais</button>
+  </table>
+  
+
+  <footer>
+    <p>© 2025 Minecraft World</p>
+  </footer>
+
+  <!-- Janela modal para ampliar imagem -->
+  <div id="imagem" class="modal">
+    <span class="fechar">&times;</span>
+    <imagem class="modal-conteudo" id="imgAmpliada">
+    <div id="legenda"></div>
+  </div>
+  
+</body>
+</html>
+
